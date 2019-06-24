@@ -1,22 +1,23 @@
 import setuptools
 
+from malice import __version__, __author__, __email__, __license__
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="malice",
-    version="0.0.1",
-    author="Samuel Déal",
-    author_email="samuel.deal@gmail.com",
-    description="My Awesome little infrastructure configuration environment",
+    version=__version__,
+    author=__author__,
+    author_email=__email__,
+    description="My awesome little infrastructure configuration environment",
+    license=__license__,
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/SamuelDeal/malice",
     packages=setuptools.find_packages(),
     entry_points={
-        "console_scripts": [
-            "{} = {}.main".format("malice", "malice")
-        ]
+        "console_scripts": ["malice = malice:main"]
     },
     classifiers=[
         "Development Status :: 1 - Planning",

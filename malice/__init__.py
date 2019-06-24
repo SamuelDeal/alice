@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # vim: set fileencoding=utf-8:tabstop=4:softtabstop=4:shiftwidth=4:expandtab:textwidth=120
 
@@ -21,19 +20,13 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-# Core libs
-import sys
-# import configparser
-# import os
+__version__ = '0.0.4'
+__author__ = 'Samuel Déal'
+__email__ = 'samuel.deal@gmail.com'
+__maintainer__ = 'samuel.deal@gmail.com'
+__license__ = 'GPL v3+'
+__copyright__ = 'Copyright 2019, Samuel Déal'
+__credits__ = ["Samuel Déal"]
+__status__ = "Planning"
 
-
-def run():
-    print("coucou")
-
-
-def main():
-    sys.exit(run())
-
-
-if __name__ == '__main__':
-    main()
+from .malice import main
