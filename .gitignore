@@ -1,0 +1,20 @@
+# List all files ignored by git
+
+# local config file
+*.local.*
+
+# Ignore python cache files
+*.pyc
+__pycache__
+/venv
+*.egg-info
+/build
+/dist
+
+# Ignore hidden files, but keep important files
+.*
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.dockerignore
+!.keep
