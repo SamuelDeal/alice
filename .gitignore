@@ -18,3 +18,7 @@ __pycache__
 !.editorconfig
 !.dockerignore
 !.keep
+
+
+# Project specific files to ignore
+dev.sh

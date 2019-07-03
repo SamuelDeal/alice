@@ -20,13 +20,22 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-__version__ = '0.0.5'
-__author__ = 'Samuel Déal'
-__email__ = 'samuel.deal@gmail.com'
-__maintainer__ = 'samuel.deal@gmail.com'
-__license__ = 'GPL v3+'
-__copyright__ = 'Copyright 2019, Samuel Déal'
-__credits__ = ["Samuel Déal"]
-__status__ = "Planning"
 
-from .malice import main
+def start():
+    print("Coucou")
+
+
+def restart():
+    print("Coucou")
+
+
+def stop():
+    print("Coucou")
+
+
+def kill():
+    print("Coucou")
+
+
+def clean():
+    print("Coucou")
